@@ -97,11 +97,7 @@ def inititate():
 
 if __name__ == '__main__':
   works = eval(open('input').read())
-  choice = input("\
-    1. 首次适应算法\n\
-    2. 最佳适应算法\n\
-    输入你想要使用的算法：\
-  ")
+  choice = input(f"{'-'*80}\n 1. 首次适应算法\n 2. 最佳适应算法\n{'-'*80}\n输入你想要使用的算法（1/2）： ")
   type = ['first', 'best'][int(choice)-1]
   inititate()
   for work in works:
