@@ -1,0 +1,13 @@
+[
+{'id':1, 'action':'alloc', 'size':130 },
+{'id':2, 'action':'alloc', 'size':60 },
+{'id':3, 'action':'alloc', 'size':100 },
+{'id':2, 'action':'free', 'size':60 },
+{'id':4, 'action':'alloc', 'size':200 },
+{'id':3, 'action':'free', 'size':100 },
+{'id':1, 'action':'free', 'size':130 },
+{'id':5, 'action':'alloc', 'size':140 },
+{'id':6, 'action':'alloc', 'size':60 },
+{'id':7, 'action':'alloc', 'size':50 },
+{'id':6, 'action':'free', 'size':60 },
+]
